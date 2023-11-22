@@ -1,0 +1,75 @@
+.App {
+  padding-left: 15%; /* leave some space on the left side of the page */
+  padding-right: 30%;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #333; /* use a dark gray color for text */
+  background-color: #f5f5f5; /* use a light gray background color */
+}
+
+.news-article {
+  border: 1px solid #ddd; /* add a border around the news article */
+  padding: 20px; /* add some padding inside the news article */
+  margin-bottom: 20px; /* add some space below each news article */
+  background-color: #fff; /* use a white background color for the news article */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); /* add a subtle shadow for a 3D effect */
+}
+
+.news-article .home-button {
+  display: inline-block; /* make the button an inline-block element */
+  background-color: blue; /* make the button blue */
+  color: white; /* make the text white */
+  padding: 10px; /* add some padding */
+  text-decoration: none; /* remove the underline */
+  position: absolute; /* position the button absolutely */
+  top: 10px; /* position the button 10px from the top of the page */
+  left: 10px; /* position the button 10px from the left of the page */
+  border-radius: 10px; /* give the button rounded corners */
+}
+
+.news-article h2 {
+  font-size: 2em; /* increase the font size of the title */
+  margin-bottom: 0.75em; /* add some space below the title */
+  font-family: Georgia, serif; /* use the Georgia font for the title */
+}
+
+.news-article .overview {
+  background-color: #f5f5f5; /* use a light gray background color for the overview */
+  padding: 10px; /* add some padding inside the overview */
+  margin-bottom: 1em; /* add some space below the overview */
+  font-size: 0.75em; /* reduce the font size of the overview */
+  font-family: Verdana, Geneva, Tahoma, sans-serif; /* use the Verdana font for the overview */
+}
+
+.news-article .publication-logo {
+  display: block; /* make the logo a block element */
+  margin: 0 auto 1em; /* center the logo and add some space below it */
+  width: 30%; /* reduce the size of the logo */
+  height: auto; /* keep the original aspect ratio of the logo */
+}
+
+.news-article .separator {
+  border: 0; /* remove the default border */
+  border-top: 2px solid #ddd; /* add a top border and make it bold */
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25); /* increase the shadow above the line */
+  margin-bottom: 1em; /* add some space below the line */
+}
+
+.news-article .article-meta {
+  display: flex; /* use flexbox for layout */
+  justify-content: space-between; /* space out the date/time and publication */
+  font-size: 0.75em; /* make the font smaller */
+  font-style: italic; /* make the font italic */
+  margin-bottom: 1em; /* add some space below the meta info */
+}
+
+.news-article .article-image {
+  width: 100%; /* make the image take up the full width of the news article */
+  height: auto; /* keep the original aspect ratio of the image */
+  margin-bottom: 1em; /* add some space below the image */
+}
+
+.news-article p {
+  margin-bottom: 2.5em; /* increase the space between the text */
+  line-height: 2.6; /* increase the space between lines */
+  word-spacing: 0.2em; /* increase the space between words */
+}
